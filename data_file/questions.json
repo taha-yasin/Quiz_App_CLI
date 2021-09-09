@@ -1,0 +1,108 @@
+[
+	{
+		"question": "What following operator is called ?:",
+		"options": [
+			"A. Scope Resolution Operator",
+			"B. Conditional Operator",
+			"C. Ternary Operator",
+			"D. if else o/p"
+		],
+		"answer": "A. Scope Resolution Operator"
+	},
+	{
+		"question": "Can we create object of Abstract class?",
+		"options": [
+			"A. Yes",
+			"B. No"
+		],
+		"answer": "B. No"
+	},
+	{
+		"question": "Is const better than #define?",
+		"options": [
+			"A. Yes",
+			"B. No"
+		],
+		"answer": "A. Yes"
+	},
+	{
+		"question": "Exceptions are Caught at ?",
+		"options": [
+			"A. Compilation Time",
+			"B. Run Time",
+			"C. Linking Time",
+			"D. None of these"
+		],
+		"answer": "B. Run Time"
+	},
+	{
+		"question": "What is abstract class?",
+		"options": [
+			"A. A class with abstract keyword",
+			"B. A class with no functions in it",
+			"C. A class with atleast one pure virtual function",
+			"D. Empty Class"
+		],
+		"answer": "C. A class with atleast one pure virtual function"
+	},
+	{
+		"question": "When Virtual Table is created?",
+		"options": [
+			"A. Every Class has VTable",
+			"B. Class inherited from other Class",
+			"C. When a Class Overrides the function of Base class",
+			"D. Class has atleast one Virtual Function"
+		],
+		"answer": "D. Class has atleast one Virtual Function"
+	},
+	{
+		"question": "What should be the output?\n\nint main() {\n\tint new = -10;\n\tcout<<\"new is: \"<<new;\n\treturn 0;\n}",
+		"options": [
+			"A. new is: -10",
+			"B. new is: 10",
+			"C. Compilation Error",
+			"D. new is: 0"
+		],
+		"answer": "C. Compilation Error"
+	},
+	{
+		"question": "What should be the output of below program?\n\nint main() {\n\tcout<<\"CppBuzz\";;;;;\n\treturn 0;\n}",
+		"options": [
+			"A. Compilation Error",
+			"B. Runtime Error",
+			"C. CppBuzz",
+			"D. CppBuzz;;;;"
+		],
+		"answer": "C. CppBuzz"
+	},
+	{
+		"question": "Which of the following is the least safe type casting in C++?",
+		"options": [
+			"A. static_cast",
+			"B. const_cast",
+			"C. reinterpret_cast",
+			"D. dynamic_cast"
+		],
+		"answer": "C. reinterpret_cast"
+	},
+	{
+		"question": "Which is the Parent class for all exceptions?",
+		"options": [
+			"A. std::bad_exception",
+			"B. std::logic_error",
+			"C. std::exception",
+			"D. std::runtime_error"
+		],
+		"answer": "C. std::exception"
+	},
+	{
+		"question": "Which Exception is thrown when new fails to allocate memory?",
+		"options": [
+			"A. std::exception",
+			"B. std::bad_alloc",
+			"C. std::runtime_error",
+			"D. std::out_of_range"
+		],
+		"answer": "B. std::bad_alloc"
+	}
+]
